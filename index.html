@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">
+        Coffee House
+    </div>
+
+    <nav class="nav">
+        <a href="#">Главная</a>
+        <a href="#menu">Меню</a>
+        <a href="#about">О нас</a>
+        <a href="#reviws">Отзывы</a>
+    </nav>
+
+    <div class="headerActions">
+        <button class="searchBtn">⌕</button>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="heroContent">
+        <p class="heroSubtitle">
+            COFFEE HOUSE
+        </p>
+
+        <h1>
+            Лучший кофе<br>
+            для лучших людей
+        </h1>
+
+        <p class="heroText">
+            Свежий кофе, уютная атмосфера
+            и любовь к каждому напитку.
+        </p>
+
+        <div class="heroButtons">
+            <button class="mainBtn" id="openMenuBtn">
+                Смотреть меню
+            </button>
+        </div>
+    </div>
+
+        <div class="heroImage">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80" alt="Кофе">
+        </div>
+</section>
+
+<section class="menuSection" id="menu">
+    <div class="sectionHeader">
+        <p class="sectionSubtitle">
+            СЕЗОННОЕ МЕНЮ
+        </p>
+
+        <h2>
+            Осеннее предложение
+        </h2>
+
+        <p>
+            Теплые напитки и уютные вкусы для прохладных дней
+        </p>
+    </div>
+
+    <div class="autumnMenu">
+        <img src="osen.png" alt="osen">
+
+    </div>
+
+</section>
+
+<section class="featuresSection">
+    <div class="sectionHeader">
+        <p class="sectionSubtitle">ПОЧЕМУ МЫ</p>
+        <h2>Почему выбирают нас</h2>
+        <p>Мы делаем все, чтобы каждый визит был особенный</p>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <div class="featureIcon">☕</div>
+            <h3>Свежий кофе</h3>
+            <p>Используем качественные зерна и лучшее оборудование</p>
+        </div>
+
+        <div class="feature">
+            <div class="featureIcon">♥</div>
+            <h3>Уютная атмосфера</h3>
+            <p>То самое место, где можно отдохнуть, поработать, встретиться с друзьями</p>
+        </div>
+
+        <div class="feature">
+            <div class="featureIcon">★</div>
+            <h3>Любовь к делу</h3>
+            <p>Мы внимательно относимся к каждому напику и к каждому гостю</p>
+        </div>
+    </div>
+</section>
+
+<div class="fullMenuOverlay" id="fullMenuModal">
+  <div class="fullMenuContent">
+    <button class="closeMenuBtn" id="closeMenuBtn">✕</button>
+    
+    <div class="sectionHeader">
+      <p class="sectionSubtitle">НАШЕ МЕНЮ</p>
+      <h2>Выберите свой идеальный кофе</h2>
+      <p>Свежая обжарка и натуральные ингредиенты</p>
+    </div>
+
+    <div class="fullMenuGrid">
+      
+      <div class="menuCard">
+        <div class="menuCardImage">
+          <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=500&q=80" alt="Капучино">
+          <span class="badge">Хит</span>
+        </div>
+        <div class="menuCardBody">
+          <h3>Капучино</h3>
+          <p class="menuCardDesc">Классический эспрессо с пышной и нежной молочной пеной.</p>
+          <div class="menuCardFooter">
+            <span class="menuCardPrice">250 ₽</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menuCard">
+        <div class="menuCardImage">
+          <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=500&q=80" alt="Латте">
+        </div>
+        <div class="menuCardBody">
+          <h3>Латте Макиато</h3>
+          <p class="menuCardDesc">Мягкий кофейный напиток с преобладанием горячего молока.</p>
+          <div class="menuCardFooter">
+            <span class="menuCardPrice">280 ₽</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menuCard">
+        <div class="menuCardImage">
+          <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=500&q=80" alt="Раф">
+          <span class="badge">Новинка</span>
+        </div>
+        <div class="menuCardBody">
+          <h3>Осенний Пряный Раф</h3>
+          <p class="menuCardDesc">Эспрессо, взбитый со сливками, ванильным сахаром и корицей.</p>
+          <div class="menuCardFooter">
+            <span class="menuCardPrice">320 ₽</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menuCard">
+        <div class="menuCardImage">
+          <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=500&q=80" alt="Круассан">
+        </div>
+        <div class="menuCardBody">
+          <h3>Французский Круассан</h3>
+          <p class="menuCardDesc">Свежая хрустящая выпечка с начинкой из темного шоколада.</p>
+          <div class="menuCardFooter">
+            <span class="menuCardPrice">190 ₽</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>       
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
